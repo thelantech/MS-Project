@@ -5,4 +5,19 @@ The Personal.XLSB file can be hidden in the background of excel and will automat
 
 To store a macro in Personal.XLSB:
 
-Step 1. 
+Step 1.	Excel: File: Options: Customize Ribbon: Click the checkbox to enable developer tab
+Step 2.	Navigate to the Developer Tab
+Step 3.	Click Record Macro: Change “Store Macro In” to Personal Macro Workbook: Click “OK”
+Step 4.	Go to any cell and type something. You only need to record keystrokes here so excel will create a macro – you’ll replace the code with the attached code in a later step so it really doesn’t matter what you do, so long as you don’t do “nothing”
+Step 5.	Navigate to the Developer Tab: Click Stop recording (little blue box)
+Step 6.	Navigate to view: Window: Unhide -> Unhide the PERSONAL.XLSB file
+Step 7.	Go into the personal file
+Step 8.	Navigate to Developer: Macros 
+Step 9.	Find the macro you just recorded
+Step 10.	Click “Edit.” This will open up the visual basic code
+Step 11.	Copy your macro 
+Step 12.	Close the Visual Basic text editor (you don’t need to save). This will take you back to the Personal.XLSB file.
+Step 13.	Navigate to View: Window: Click Hide
+Step 14.	Go to your scorecard file (original Excel file you were working in)
+Step 15.	Navigate to Developer: Macros: in the “Macros In” dropdown, select “All open Workbooks” (this includes the hidden Personal.XLSB file
+Step 16.	Run the PERSONAL.Scorecard_Table Macro
