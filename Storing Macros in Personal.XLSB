@@ -1,0 +1,8 @@
+SOP to Store Excel Macro in Personal.XLSB
+
+Storing in the Personal.XLSB file will allow access to macros whenever opening any excel file, without having to open a second file.
+The Personal.XLSB file can be hidden in the background of excel and will automatically open any time excel is started.
+
+To store a macro in Personal.XLSB:
+
+Step 1. 
